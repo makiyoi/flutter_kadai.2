@@ -38,7 +38,6 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController numberController =TextEditingController();
   TextEditingController setNumController = TextEditingController();
 
-
 @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -47,7 +46,6 @@ class _MyHomePageState extends State<MyHomePage> {
             fontSize: 20,
             fontWeight: FontWeight.bold),),
       ),
-
       body: Column(
             children: [
             SizedBox(height: 20,),
@@ -60,7 +58,6 @@ class _MyHomePageState extends State<MyHomePage> {
                  decoration: BoxDecoration(
                  border: Border.all(color: Colors.brown)
                 ),
-
                   child: Row(
                    children: [
                    Expanded(
@@ -71,7 +68,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       decoration: InputDecoration(
                         hintText: '',
                         border: InputBorder.none,
-
                       ),
                   ),
                ),
@@ -102,9 +98,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                    Text('結果:', style: TextStyle(fontSize: 15,),),
                    Text('${number.toStringAsFixed(3)}',
-                     style: TextStyle(fontSize: 20),),
-
-
+                     style: TextStyle(fontSize: 20),
+                   ),
             ]
           ),
              SizedBox(height: 10,),
@@ -166,7 +161,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     ]
                    ),
                       SizedBox(height: 40,),
-
                    Column(
                      children: [
                       ElevatedButton(
@@ -174,8 +168,6 @@ class _MyHomePageState extends State<MyHomePage> {
                            setState(() {
                              numberController.clear();
                              setNumController.clear();
-                             //int $num = 0;
-
                             });
                          },
                         child: Text('RESET'),
@@ -213,9 +205,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     child:
                      ClipRRect(
                     child: Image.asset('assets/nikukyuu.jpg'),
-
-
-
                 ),
               ),
                 ]
@@ -225,6 +214,9 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
+
 
 
 
