@@ -222,106 +222,35 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
       ],
     ),
-
-
-
-
-                    );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    );
   }
 }
 
 
-                  // 表示
-
-            //class TextField extends StatefulWidget{
-           // _TextFieidState createState() => _TextFieldState();
-
-            //class _TextFieldState extends State<TextField> {
-             // String _expression ='1+1';
-              //@overeide
-                //   Widget build(BuildContext context) {
-                  //   return Expanded(
-                   //   flex: 1,
-                     //         child: Container(
-                       //    child: Align(
-                       //  alignment: Alignment.centerRight,
-                         // child: Text(
-                           // _expression,
-                             // style: TextStyle(
-                               // fontSize: 30.0,
-                   //)
 
 
 
-           //),
-           // )
-           //),
-             //            )
-         //}
-      // }
 
 
-//キーボード
-// class Keyboard  extends StatelessfulWidget{
-//   @override
-// Widget build(BuildContext context) {
-// return Containar(
-
-//);
-//}
-
-//キーボタン
-//class Button extends StatelessfulWidget{
-//@override
-//Widget build(BuildContext context) {
-//return Containar(
-
-//);
-//}
-//}
 
 
-//),
-//);
 
 
-// children: <Widget>[
-//  const Text(
-//  'You have pushed the button this many times:',
-//),
-//  Text(
-//  '$_counter',
-// style: Theme.of(context).textTheme.headline4,
-//),
-//  ],
-//),
-//]
-//),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
